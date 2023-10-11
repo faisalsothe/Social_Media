@@ -20,7 +20,7 @@ const App=()=>{
       }, []);
 
     return(
-        <GoogleOAuthProvider clientId="373906926522-1piktc74hi5l7gdecubm0ebv1ubrgvo4.apps.googleusercontent.com">
+        <GoogleOAuthProvider clientId="373906926522-ogubk0mtojdan8ogdmauvcidjoljmn8j.apps.googleusercontent.com">
         <BrowserRouter>
         <Container maxWidth="lg">
         <NavBar/>
