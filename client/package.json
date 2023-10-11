@@ -1,0 +1,53 @@
+{
+  "name": "mern-stack-client",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "https://memoriesbe.onrender.com",
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@material-ui/core": "^4.9.10",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.58",
+    "@react-oauth/google": "^0.11.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "axios": "^1.5.1",
+    "dotenv": "^16.3.1",
+    "eslint": "^6.6.0",
+    "eslint-config-react-app": "^7.0.1",
+    "jwt-decode": "^3.1.2",
+    "material-ui-chip-input": "^2.0.0-beta.2",
+    "moment": "^2.27.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-file-base64": "^1.0.3",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^6.16.0",
+    "react-scripts": "^3.0.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "sweetalert2": "^11.6.13",
+    "web-vitals": "^3.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
